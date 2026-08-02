@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>karmalis 프로젝트</title>
+<meta name="description" content="레저지도를 비롯한 공개 프로젝트 모음">
+<style>
+:root{--bg:#f6f3ec;--surface:#fff;--ink:#2c3e42;--soft:#5c6f73;--line:#e2ddd0;--navy:#0a2e3d}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1b20;--surface:#132a31;--ink:#e8ede9;--soft:#9db0b3;--line:#20393f}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;padding:24px;display:flex;min-height:100vh;align-items:center;justify-content:center}
+main{max-width:520px;width:100%}
+h1{font-size:22px;margin-bottom:6px}
+p.lead{color:var(--soft);margin-bottom:22px;font-size:14.5px}
+a.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px;text-decoration:none;color:inherit}
+a.card:hover{border-color:var(--navy)}
+.t{font-weight:700;margin-bottom:4px}
+.d{color:var(--soft);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>karmalis 프로젝트</h1>
+<p class="lead">공개 운영 중인 프로젝트 목록입니다.</p>
+<a class="card" href="/leisure-map/">
+  <div class="t">대한민국 레저 지도</div>
+  <div class="d">전국 다이빙·서핑 29개 지역, 샵 194곳 — 가격·수중환경·시즌 정보</div>
+</a>
+<a class="card" href="/clawsafe/">
+  <div class="t">clawsafe</div>
+  <div class="d">스킬 스캐너 합의 감사 리더보드</div>
+</a>
+</main>
+</body>
+</html>
